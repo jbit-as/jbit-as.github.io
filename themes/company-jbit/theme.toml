@@ -1,0 +1,9 @@
+name = "Company Jbit"
+license = "MIT"
+licenselink = "https://github.com/jbit-as/jbit.no/blob/master/site/themes/company-jbit/LICENSE.md"
+description = "Jbit AS company hugo theme"
+min_version = 0.15
+
+[author]
+  name = "Joakim Bjørnstad"
+  homepage = "http://jbit.no"

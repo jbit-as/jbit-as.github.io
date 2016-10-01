@@ -1,0 +1,38 @@
+{{ $baseurl := .Site.BaseURL }}
+
+<!-- Navigation -->
+<nav class="navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a id="hjem" class="navbar-brand" href="{{$baseurl}}"><img src="{{$baseurl}}/img/logo_80px.png" alt="Jbit logo"/></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#tjenester" title="Hvilke tjenester vi tilbyr">Tjenester</a>
+                </li>
+                <li>
+                    <a href="#kontakt" title="Kontakt oss">Kontakt oss</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li>
+                    <a href="mailto:hallo@jbit.no" title="Hils på oss!" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/jbit-as" title="Besøk oss på LinkedIn!" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/jbit-as" title="Besøk oss på GitHub!" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

@@ -1,0 +1,102 @@
+{{ $baseurl := .Site.BaseURL }}
+
+<body>
+    {{ partial "nav.html" . }}
+
+    <div class="container marketing">
+
+        <div class="jumbotron">
+          <h2>Jbit er et lite konsulentselskap.</h2>
+          <p>Vi leverer IT-konsulenttjenester og rådgiving. Vårt fokus er å levere kvalitet i alt vi gjør.</p>
+          <p>Vi automatiserer alt. Tar vare på all data. Strekker oss mot skyen. Lener oss langt frem.</p>
+          <p>Våre konsulenter kan hjelpe med realisering av deres IT-strategiske mål.</p>
+        </div>
+
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                  <h1 id="tjenester" class="text-center">Tjenester</h1>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-coffee fa-3x"></i>
+                <h2>Skreddersøm på JVM</h2>
+                <p>Vi snakker Java, Scala og Groovy. Vi kan lage A-Å løsninger og benytter i stor grad velutviklet teknologi basert på Open Source. Vi trives godt i backend.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-share-alt fa-3x"></i>
+                <h2>Integrasjon</h2>
+                <p>Behøver deres systemer å integrere mot eksterne applikasjoner eller ny hyllevare? Vi er drevne på integrasjon og tar i bruk kjente mønstre og teknologier for dette.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-rocket fa-3x"></i>
+                <h2>Modernisering</h2>
+                <p>Har dere en eksisterende applikasjonsportefølje på JVM som gir mye hodebry? Våre konsulenter kan forenkle og knuse monolitter til microservices. Eller gi brukerflater det ansiktsløft det fortjener.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fa fa-gears fa-3x"></i>
+                <h2>DevOps</h2>
+                <p>Vi lager løsninger vi kunne driftet selv og gjør det gjerne. Vi automatiserer alt og sørger for full kontroll i utvikling, test og produksjon. I tillegg sørger vi for raske sykler fra idé til verdi.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-user-plus fa-3x"></i>
+                <h2>Fleksibilitet, kapasitet og kompetanse</h2>
+                <p>Vi kan dekke opp for både kompetanse og kapasitet i deres IT prosjekt. Vi jobber hos dere eller eksternt. Vi samarbeider gjerne med dere og andre konsulentfirmaer.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-home fa-3x"></i>
+                <h2>Forvaltning og domene</h2>
+                <p>Våre konsulenter har lang erfaring på forvaltning av systemporteføljer. Vi strekker oss også langt for å forstå deres domene.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row contact-row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1 id="kontakt" class="text-center">Kontakt oss</h1>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Adresse</h3>
+                        <address>
+                            <strong>Jbit AS</strong><br>
+                            Minister Ditleffs Vei 11B<br>
+                            0862 Oslo<br>
+                            <abbr title="Telefonnummer">Tel:</abbr>&nbsp;<a href="tel:+4741147088">(+47) 411 47 088</a><br>
+                            <abbr title="Organisasjonsnummer">Org:</abbr>&nbsp;<a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=916214588" target="_blank">916 214 588</a> 
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3>Hils på oss :)</h3>
+                <span class="epost"><a href="mailto:hallo@jbit.no" title="Kontakt Jbit">hallo@jbit.no</a></span><br>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3>Følg oss!</h3>
+                <div class="row">
+                    <div class="col-md-6 col-xs-6">
+                        <a href="https://www.linkedin.com/company/jbit-as" title="Besøk oss på LinkedIn!" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <a href="https://github.com/jbit-as" title="Besøk oss på GitHub!" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /.container -->
+    <script src="{{$baseurl}}/js/jquery-1.9.1.min.js"></script>
+    <script src="{{$baseurl}}/js/bootstrap.min.js"></script>
+</body>

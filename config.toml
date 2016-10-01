@@ -1,0 +1,4 @@
+baseurl = "http://jbit.no"
+languageCode = "nb-no"
+title = "Jbit"
+theme = "company-jbit"
