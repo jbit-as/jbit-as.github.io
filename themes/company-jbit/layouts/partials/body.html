@@ -1,100 +1,194 @@
 <body>
-    {{ partial "nav.html" . }}
-
-    <div class="container marketing">
-
-        <div class="jumbotron">
-          <h2>Jbit er et lite konsulentselskap.</h2>
-          <p>Vi leverer IT-konsulenttjenester og rådgiving. Vårt fokus er å levere kvalitet i alt vi gjør.</p>
-          <p>Vi automatiserer alt. Tar vare på all data. Strekker oss mot skyen. Lener oss langt frem.</p>
-          <p>Våre konsulenter kan hjelpe med realisering av deres IT-strategiske mål.</p>
-        </div>
-
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page-header">
-                  <h1 id="tjenester" class="text-center">Tjenester</h1>
+    <section class="hero is-light is-medium is-bold">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img id="logo" src={{"/img/logo.png" | relURL}} alt="Jbit logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active">
+                                Hjem
+                            </a>
+                            <a class="navbar-item">
+                                Tjenester
+                            </a>
+                            <a class="navbar-item">
+                                Kontakt
+                            </a>
+                            <span class="navbar-item">
+                                <a href="https://github.com/jbit-as" title="Besøk oss på GitHub!" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                            </span>
+                            <span class="navbar-item">
+                                <a href="https://www.linkedin.com/company/jbit-as" title="Besøk oss på LinkedIn!" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <i class="fa fa-coffee fa-3x"></i>
-                <h2>Skreddersøm på JVM</h2>
-                <p>Vi snakker Java, Scala og Groovy. Vi kan lage A-Å løsninger og benytter i stor grad velutviklet teknologi basert på Open Source. Vi trives godt i backend.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <i class="fa fa-share-alt fa-3x"></i>
-                <h2>Integrasjon</h2>
-                <p>Behøver deres systemer å integrere mot eksterne applikasjoner eller ny hyllevare? Vi er drevne på integrasjon og tar i bruk kjente mønstre og teknologier for dette.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <i class="fa fa-rocket fa-3x"></i>
-                <h2>Modernisering</h2>
-                <p>Har dere en eksisterende applikasjonsportefølje på JVM som gir mye hodebry? Våre konsulenter kan forenkle og knuse monolitter til microservices. Eller gi brukerflater det ansiktsløft det fortjener.</p>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                Noe som fenger
+                </h1>
+                <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </h2>
             </div>
         </div>
-        <!-- /.row -->
-
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <i class="fa fa-gears fa-3x"></i>
-                <h2>DevOps</h2>
-                <p>Vi lager løsninger vi kunne driftet selv og gjør det gjerne. Vi automatiserer alt og sørger for full kontroll i utvikling, test og produksjon. I tillegg sørger vi for raske sykler fra idé til verdi.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <i class="fa fa-user-plus fa-3x"></i>
-                <h2>Fleksibilitet, kapasitet og kompetanse</h2>
-                <p>Vi kan dekke opp for både kompetanse og kapasitet i deres IT prosjekt. Vi jobber hos dere eller eksternt. Vi samarbeider gjerne med dere og andre konsulentfirmaer.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <i class="fa fa-home fa-3x"></i>
-                <h2>Forvaltning og domene</h2>
-                <p>Våre konsulenter har lang erfaring på forvaltning av systemporteføljer. Vi strekker oss også langt for å forstå deres domene.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <div class="row contact-row">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <h1 id="kontakt" class="text-center">Kontakt oss</h1>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Adresse</h3>
-                        <address>
-                            <strong>Jbit AS</strong><br>
-                            Minister Ditleffs Vei 11B<br>
-                            0862 Oslo<br>
-                            <abbr title="Telefonnummer">Tel:</abbr>&nbsp;<a href="tel:+4741147088">(+47) 411 47 088</a><br>
-                            <abbr title="Organisasjonsnummer">Org:</abbr>&nbsp;<a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=916214588" target="_blank">916 214 588</a> 
-                        </address>
+    </section>
+    <section class="container">
+        <div class="columns features">
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-paw"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Tristique senectus et netus et. </h4>
+                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                <h3>Hils på oss :)</h3>
-                <span class="epost"><a href="mailto:hallo@jbit.no" title="Kontakt Jbit">hallo@jbit.no</a></span><br>
-            </div>
-            <div class="col-md-4 text-center">
-                <h3>Følg oss!</h3>
-                <div class="row">
-                    <div class="col-md-6 col-xs-6">
-                        <a href="https://www.linkedin.com/company/jbit-as" title="Besøk oss på LinkedIn!" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-empire"></i>
                     </div>
-                    <div class="col-md-6 col-xs-6">
-                        <a href="https://github.com/jbit-as" title="Besøk oss på GitHub!" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Tempor orci dapibus ultrices in.</h4>
+                            <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-id-card-o"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4> Leo integer malesuada nunc vel risus.  </h4>
+                            <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /.container -->
-    <script src={{"/js/jquery-1.9.1.min.js" | relURL}}></script>
-    <script src={{"/js/bootstrap.min.js" | relURL}}></script>
+        <div class="intro column is-8 is-offset-2">
+            <h2 class="title">Perfect for developers or designers!</h2><br>
+            <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
+        </div>
+        <div class="sandbox">
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Hello World</p>
+                        <p class="subtitle">What is up?</p>
+                    </article>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Foo</p>
+                        <p class="subtitle">Bar</p>
+                    </article>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Third column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Vertical tiles</p>
+                                <p class="subtitle">Top box</p>
+                            </article>
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Vertical tiles</p>
+                                <p class="subtitle">Bottom box</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Middle box</p>
+                                <p class="subtitle">With an image</p>
+                                <figure class="image is-4by3">
+                                    <img src="http://bulma.io/images/placeholders/640x480.png">
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Wide column</p>
+                            <p class="subtitle">Aligned with the right column</p>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <div class="content">
+                            <p class="title">Tall column</p>
+                            <p class="subtitle">With even more content</p>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                                <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+                                <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Side column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="tile is-parent is-8 is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Main column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ partial "footer.html" . }}
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src={{"/js/app.js" | relURL}}></script>
 </body>

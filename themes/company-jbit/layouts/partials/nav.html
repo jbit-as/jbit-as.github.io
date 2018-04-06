@@ -1,16 +1,32 @@
-{{ $baseurl := .Site.BaseURL }}
-
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="item" href=""><img src={{"/img/logo_80px.png" | relURL}} alt="Jbit logo"/></a>
+        <a class="active item">Tjenester</a>
+        <a class="item">Kontakt</a>
+        <div class="right menu">
+            <a class="item" href="mailto:hallo@jbit.no" title="Hils på oss!" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+            <a class="item" href="https://www.linkedin.com/company/jbit-as" title="Besøk oss på LinkedIn!" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="item" href="https://github.com/jbit-as" title="Besøk oss på GitHub!" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </div>
+    </div>
+</div>
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a class="item" href=""><img src={{"/img/logo_80px.png" | relURL}} alt="Jbit logo"/></a>
+    <a class="active item">Tjenester</a>
+    <a class="item">Kontakt</a>
+</div>
 <!-- Navigation -->
 <nav class="navbar" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-bars fa-2x"></i>
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-2x"></i>
             </button>
             <a id="hjem" class="navbar-brand" href=""><img src={{"/img/logo_80px.png" | relURL}} alt="Jbit logo"/></a>
         </div>
-
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
