@@ -1,63 +1,78 @@
 <body>
     {{ partial "nav.html" . }}
     <main role="main">
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron bg-light">
+        <div class="jumbotron jumbotron-fluid bg-white shadow">
             <div class="container">
-                <h1 class="display-3">Et lite konsulentselskap!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <h1 class="display-4">Vi er et lite IT-konsulentselskap</h1>
             </div>
         </div>
         <div class="container">
-            <!-- Example row of columns -->
-            <div class="card-deck">
-                <div class="card is-shady">
-                    <div class="card-body">
-                        <h5 class="card-title">Utfordring 1</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card is-shady">
-                    <div class="card-body">
-                        <h5 class="card-title">Utfordring 2</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                </div>
-                <div class="card is-shady">
-                    <div class="card-body">
-                        <h5 class="card-title">Utfordring 3</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                </div>
-            </div>
             <br>
             <div class="row">
                 <div class="col text-center">
                     <h1 class="display-4">Tjenester</h1>
-                    <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+                    <p class="lead"><strong>Jbit AS</strong> leverer IT-konsulenttjenester og rådgiving. Vårt fokus er å levere forretningsverdi til kunden.</p>
+                    <p class="lead">Våre konsulenter kan hjelpe med realisering av deres IT-strategiske mål.</p>
                 </div>
             </div>
             <div class="card-deck">
                 <div class="card is-shady">
                     <div class="card-body">
-                        <h5 class="card-title">Utfordring 1</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="text-center card-icon card-services">
+                            <i class="fas fa-cloud-upload-alt fa-7x"></i>
+                        </div>
+                        <h5 class="card-title text-center">Skyteknologi</h5>
+                        <p class="card-text">Vi har erfaring med skyteknologiene under <abbr title="Cloud Native Computing Foundation">CNCF</abbr> paraplyen og lager applikasjoner som er Cloud First.</p>
                     </div>
                 </div>
                 <div class="card is-shady">
+                    <div class="text-center card-icon card-services">
+                        <i class="fas fa-rocket fa-7x"></i>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Utfordring 2</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title text-center">Modernisering</h5>
+                        <p class="card-text">Våre konsulenter kan modernisere deres applikasjoner, slik at dere kan fortsette å være konkurransedyktige. Vi er gode på stabilitet, kvalitet og fart.</p>
                     </div>
                 </div>
                 <div class="card is-shady">
+                    <div class="text-center card-icon card-services">
+                        <i class="fas fa-share-alt fa-7x"></i>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Utfordring 3</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title text-center">Integrasjon</h5>
+                        <p class="card-text">Vi er drevne på integrasjon og tar i bruk kjente <abbr title="Enterprise Integration Patterns">EIP</abbr> og teknologier for dette.</p>
                     </div>
                 </div>
             </div>
-
+            <div class="card-deck">
+                <div class="card is-shady">
+                    <div class="text-center card-icon card-services">
+                        <i class="fas fa-cogs fa-7x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Automatisering</h5>
+                        <p class="card-text">Vi lager løsninger vi kunne driftet selv og gjør det gjerne. Vi automatiserer det som er viktig for dere og leverer fra A til Å.</p>
+                    </div>
+                </div>
+                <div class="card is-shady">
+                    <div class="text-center card-icon card-services">
+                        <i class="fas fa-desktop fa-7x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Teknologi</h5>
+                        <p class="card-text">Våre konsulenter har erfaring med modne programmeringsspråk, databaser og verktøy. Vi bruker rett teknologi for å løse deres problemer, som passer inn med deres strategi.</p>
+                    </div>
+                </div>
+                <div class="card is-shady">
+                    <div class="text-center card-icon card-services">
+                        <i class="fas fa-heartbeat fa-7x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Monitorering</h5>
+                        <p class="card-text">For oss er produksjon viktig, det er der verdiene skapes. Vi kan bidra med monitorering og varsling. I tillegg til å lage strategier for hvordan man kan gjøre IT-forretningen mest mulig stabil.</p>
+                    </div>
+                </div>
+            </div>
             {{ partial "footer.html" . }}
             </div> <!-- /container -->
         </main>

@@ -1,5 +1,12 @@
 html,body {
-  background: #FFFFFF;
+  background: #EFF3F4;
+}
+.card-services {
+  color: #209cee;
+}
+.card-icon {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .is-shady {
 animation: flyintoright .4s backwards;
